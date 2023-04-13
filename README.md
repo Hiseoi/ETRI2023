@@ -33,8 +33,18 @@
 - [Listener Test Wav MFCC]()
 
   청자 검증 데이터의 MFCC
-- [Speaker Txt Tsv]()
-- [Speaker Txt Tsv]()
+- [Speaker Train Txt Tsv]()
+  발화자 훈련 데이터의 tsv
+- [Speaker Test Txt Tsv]()
+  발화자 검증 데이터의 tsv
+- [Listener Train Txt Tsv]()
+  청자 훈련 데이터의 tsv
+- [Listener Test Txt Tsv]()
+  청자 검증 데이터의 tsv
+ 
+- [ECG_data_variable]()
+  전처리 완료된 ECG 데이터의 변수 load용 matlab file
+
 
 ## Code
 
@@ -42,16 +52,18 @@
 - MFCC Extraction
 - MFCC 2d Conv
 - KoBERT
+- ECG Signal learning
 - Feature Fusion
 
 ## Model
 
-오디오는 MFCC를 추출해 2d convolution, 텍스트는 [KOBERT](https://github.com/SKTBrain/KoBERT)를 통해 예측하였다.
+오디오는 MFCC를 추출해 2d convolution, 텍스트는 [KOBERT](https://github.com/SKTBrain/KoBERT), ECG는 LSTM 신경망을 통해 예측하였다.
 
 ## Description
 
+텍스트: 각 tsv 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 KOBERT 코드를 실행한다.
 오디오: 각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다.
-
+ECG signal: 신경망 파일에 preprocessed data를 불러온 후 LSTM 신경망 코드를 실행한다. 
 
 ## Contributors
 
