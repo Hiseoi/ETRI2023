@@ -50,7 +50,7 @@
 
 ## Description
 
-각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다.
+오디오: 각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다.
 
 
 ## Contributors
