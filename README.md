@@ -34,15 +34,20 @@
 
   청자 검증 데이터의 MFCC
 - [Speaker Train Txt Tsv]()
+- 
   발화자 훈련 데이터의 tsv
 - [Speaker Test Txt Tsv]()
+- 
   발화자 검증 데이터의 tsv
 - [Listener Train Txt Tsv]()
+- 
   청자 훈련 데이터의 tsv
 - [Listener Test Txt Tsv]()
+- 
   청자 검증 데이터의 tsv
  
 - [ECG_data_variable]()
+- 
   전처리 완료된 ECG 데이터의 변수 load용 matlab file
 
 
