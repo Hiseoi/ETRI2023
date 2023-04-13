@@ -9,16 +9,16 @@
 
 ## Data
 
-- Speaker Train Dataframe
+- sp_train.csv
 
   발화자 훈련 데이터의 Segment ID와 해당 감정, 오디오 데이터, 텍스트 데이터의 경로를 담고 있는 데이터프레임
-- Speaker Test Dataframe
+- sp_test.csv
 
   발화자 검증 데이터의 Segment ID와 해당 감정, 오디오 데이터, 텍스트 데이터의 경로를 담고 있는 데이터프레임
-- Listener Train Dataframe
+- li_train.csv
 
   청자 훈련 데이터의 Segment ID와 해당 감정, 오디오 데이터, 텍스트 데이터의 경로를 담고 있는 데이터프레임
-- Listener Test Dataframe
+- li_test.csv
 
   청자 검증 데이터의 Segment ID와 해당 감정, 오디오 데이터, 텍스트 데이터의 경로를 담고 있는 데이터프레임
 - [X_sp_train_2d](https://drive.google.com/file/d/1BmVHlA7FUHJWMGslFHcO5GQZug_E8MI5/view?usp=sharing) / [y_sp_train_2d](https://drive.google.com/file/d/1l_TM-lfWh6gSknoDkuutwZYc0dB1cQ5O/view?usp=sharing)
