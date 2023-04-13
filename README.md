@@ -46,7 +46,7 @@
 
   청자 검증 데이터의 tsv
  
-- [ECG_data_variable]()
+- [ECG_data_variable](https://drive.google.com/file/d/1N56g1Gc4zZmgVX8ja9UzhHmrxxglBekD/view?usp=sharing)
 
   전처리 완료된 ECG 데이터의 변수 load용 matlab file
 
