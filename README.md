@@ -21,32 +21,32 @@
 - [Listener Test Dataframe]()
 
   청자 검증 데이터의 Segment ID와 해당 감정, 오디오 데이터, 텍스트 데이터의 경로를 담고 있는 데이터프레임
-- [Speaker Train Wav MFCC]()
+- [X_sp_train_2d](https://drive.google.com/file/d/1BmVHlA7FUHJWMGslFHcO5GQZug_E8MI5/view?usp=sharing) / [y_sp_train_2d](https://drive.google.com/file/d/1l_TM-lfWh6gSknoDkuutwZYc0dB1cQ5O/view?usp=sharing)
 
   발화자 훈련 데이터의 MFCC
-- [Speaker Test Wav MFCC]()
+- [X_sp_test_2d](https://drive.google.com/file/d/1z-N1nfdrGUlWHe3GMR2-_iZT5RiXi-Xa/view?usp=sharing) / [y_sp_test_2d](https://drive.google.com/file/d/1FJqhtIgUXTPJeg336rll0J1vo7ijkqhQ/view?usp=sharing)
 
   발화자 검증 데이터의 MFCC
-- [Listener Train Wav MFCC]()
+- [X_li_train_2d](https://drive.google.com/file/d/1gY2ToETIcHJukj1zybb2byGYysfm5o8o/view?usp=sharing) / [y_li_train_2d](https://drive.google.com/file/d/1_vwx-tiwkrzDEhsqYOuuxe_-aWi_TzZZ/view?usp=sharing)
 
   청자 훈련 데이터의 MFCC
-- [Listener Test Wav MFCC]()
+- [X_li_test_2d](https://drive.google.com/file/d/1Zdyk1zN1Wix9IPY6k39lGqgBy_6Y7CuT/view?usp=sharing) / [y_li_test_2d](https://drive.google.com/file/d/1mGj7VNGlooSBzhYd7PJBX4ONitQ99pes/view?usp=sharing)
 
   청자 검증 데이터의 MFCC
-- [Speaker Train Txt Tsv]()
+- Speaker Train Txt Tsv
 
   발화자 훈련 데이터의 tsv
-- [Speaker Test Txt Tsv]()
+- Speaker Test Txt Tsv
 
   발화자 검증 데이터의 tsv
-- [Listener Train Txt Tsv]()
+- Listener Train Txt Tsv
 
   청자 훈련 데이터의 tsv
-- [Listener Test Txt Tsv]()
+- Listener Test Txt Tsv
 
   청자 검증 데이터의 tsv
  
-- [ECG_data_variable](https://drive.google.com/file/d/1N56g1Gc4zZmgVX8ja9UzhHmrxxglBekD/view?usp=sharing)
+- [ECG_data_variable]()
 
   전처리 완료된 ECG 데이터의 변수 load용 matlab file
 
