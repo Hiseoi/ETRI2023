@@ -67,8 +67,12 @@
 ## Description
 
 텍스트: 각 tsv 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 KOBERT 코드를 실행한다.
+
 오디오: 각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다.
+
 ECG signal: 신경망 파일에 preprocessed data를 불러온 후 LSTM 신경망 코드를 실행한다. 
+
+Feature_fsuion: 텍스트 모델의 결과인 spresult.npy, liresult.npy 파일과 오디오 모델의 결과인 sp_smote_model.h5, li_smote_model.h5 파일을 ETRI 폴더에 위치시킨 후 Feature_fusion 코드를 실행한다.
 
 ## Contributors
 
