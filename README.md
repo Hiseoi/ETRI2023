@@ -46,7 +46,7 @@
 
 ## Model
 
-오디오는 MFCC를 추출해 2d convolution, 텍스트는 KOBERT([https://github.com/SKTBrain/KoBERT](https://github.com/SKTBrain/KoBERT))를 통해 예측하였다.
+오디오는 MFCC를 추출해 2d convolution, 텍스트는 [KOBERT](https://github.com/SKTBrain/KoBERT)를 통해 예측하였다.
 
 ## Description
 
