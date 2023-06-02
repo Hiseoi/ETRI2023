@@ -68,7 +68,7 @@
 
 텍스트: 각 tsv 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 KOBERT 코드를 실행한다. 결과물로 spresult.npy, liresult.npy 파일이 생성된다.
 
-오디오: 각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다. 결과물로 sp_smote_model.h5, li_smote_model.h5 파일이 생성된다.
+오디오: MFCC_extraction 코드를 실행하여 MFCC 파일을 생성한다. (용량 문제로 MFCC 파일은 위 Data 목차의 링크에서 다운로드 가능) 각 MFCC 파일을 구글 드라이브의 ETRI 폴더에 위치시킨 후 MFCC 2d Conv 코드를 실행한다. 결과물로 sp_smote_model.h5, li_smote_model.h5 파일이 생성된다.
 
 ECG signal: 신경망 파일에 preprocessed data를 불러온 후 LSTM 신경망 코드를 실행한다. 
 
